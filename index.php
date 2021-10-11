@@ -10,6 +10,7 @@ while($data=mysqli_fetch_assoc($site_info)){
     $banner=$data['image_path'];
     $app_link=$data['app_link'];
     $title=$data['title'];
+    
     $default_restaurant_id=$data['default_restaurant_id'];
     
 
